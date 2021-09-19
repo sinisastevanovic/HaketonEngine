@@ -1,0 +1,3 @@
+[submodule "HaketonEngine/thirdparty/GLFW"]
+	path = HaketonEngine/thirdparty/GLFW
+	url = https://github.com/SenseiHaketon/glfw.git
