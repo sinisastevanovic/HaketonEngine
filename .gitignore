@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
+# Binaries
+**/bin/
+!vendor/bin/premake/
+!Hazel/vendor/mono/bin
+bin-int/
+obj/
+**/cache/**
+Hazel/vendor/VulkanSDK
+Intermediates/
+__pycache__
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio files and folder
+.vs/
+.idea/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+**.nsight-gfxproj
+**.DotSettings
+**.user
 
-# Precompiled Headers
-*.gch
-*.pch
+# Meta Files
+**.meta
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Log files
+**.log
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# File Exceptions
+!AssetRegistryCache.hzr
+*.nvdbg
+*.nv-gpudmp
+*gpudmp.json
