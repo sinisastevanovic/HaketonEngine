@@ -4,3 +4,6 @@
 [submodule "HaketonEngine/thirdparty/glm"]
 	path = HaketonEngine/thirdparty/glm
 	url = https://github.com/g-truc/glm
+[submodule "HaketonEngine/thirdparty/imgui"]
+	path = HaketonEngine/thirdparty/imgui
+	url = https://SenseiHaketon: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@github.com/SenseiHaketon/imgui
